@@ -40,7 +40,7 @@ if (head == 0){ //if the head is not assigned yet (LL is on its on its own
 	head = insert;
 }
 
-else{ //traverse to find where to insert
+else{ 
 struct node* current;
 current = head; //set current to head
 	if(head->data > insert->data && head->data != insert->data){
